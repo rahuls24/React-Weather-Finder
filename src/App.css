@@ -31,3 +31,49 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  background: #112233;
+  }
+  
+  .weather-card {
+  margin: 60px auto;
+  height: 500spx;
+  width: 450px;
+  background: #fff;
+  box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  }
+  .weather-card .top {
+  position: relative;
+  height: 570px;
+  width: 100%;
+  overflow: hidden;
+  background: url("https://s-media-cache-ak0.pinimg.com/564x/cf/1e/c4/cf1ec4b0c96e59657a46867a91bb0d1e.jpg") no-repeat;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
+  }
+  .bc {
+    background-color:#F9DDA4;
+    height: 570px;
+  width: 100%;
+  }
+  
+
+
+  .knockout {
+    background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
+    color: red;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    font-weight: bold;
+    font-size: 50px;
+    font-family: arial, helvetica;
+    width: 600px;
+    margin: 50px auto;
+    text-align: center;
+  }
+  
+  
