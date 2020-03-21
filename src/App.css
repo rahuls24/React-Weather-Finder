@@ -1,79 +1,173 @@
-.App {
-  text-align: center;
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+* {
+  margin: 0;
+  padding: 0;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-}
-
 body {
-  font-family: 'Montserrat', sans-serif;
-  background: #112233;
-  }
-  
-  .weather-card {
-  margin: 60px auto;
-  height: 500spx;
-  width: 450px;
-  background: #fff;
-  box-shadow: 0 1px 38px rgba(0, 0, 0, 0.15), 0 5px 12px rgba(0, 0, 0, 0.25);
-  overflow: hidden;
-  }
-  .weather-card .top {
-  position: relative;
-  height: 570px;
-  width: 100%;
-  overflow: hidden;
-  background: url("https://s-media-cache-ak0.pinimg.com/564x/cf/1e/c4/cf1ec4b0c96e59657a46867a91bb0d1e.jpg") no-repeat;
-  background-size: cover;
-  background-position: center center;
+  background: #0575e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #021b79,
+    #0575e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #021b79,
+    #0575e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.mynav {
+  background-color: #021b79 !important;
+}
+.navText {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: '#30336B';
+  font-family: 'Bonbon';
+}
+.cl1 {
+  margin: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cl2 {
+  height: 250px;
+  width: 350px;
+  background: #0449b1;
+  border-radius: 25px;
+  box-shadow: inset -3px -3px 5px #0449b1, 3px 3px 15px #00000070;
+}
+
+/* ... */
+#ip1 {
+  border-radius: 25px;
+  border: 2px solid #609;
+  padding: 20px;
+  width: 200px;
+  height: 10px;
+  margin-top: 10%;
+  margin-left: 15%;
+}
+#ip2 {
+  border-radius: 25px;
+  border: 2px solid #609;
+  padding: 20px;
+  width: 200px;
+  height: 10px;
+  margin-top: 5%;
+  margin-left: 20%;
+}
+
+.btn-grad {
+  background-image: linear-gradient(
+    89.7deg,
+    rgba(0, 32, 95, 1) 2.8%,
+    rgba(132, 53, 142, 1) 97.8%
+  );
+  width: 40%;
+  border: none;
+  color: white;
+  padding: 12px;
   text-align: center;
-  }
-  .bc {
-    background-color:#F9DDA4;
-    height: 570px;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 12px;
+  margin-left: 28%;
+  margin-top: 5%;
+}
+.btn-grad:hover {
+  background-image: linear-gradient(to right, #363795, #005c97);
+}
+
+.cl1SR {
+  margin: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cl2SR {
+  height: 450px;
+  width: 450px;
+  background: #0449b1;
+  border-radius: 25px;
+  box-shadow: inset -3px -3px 5px #0449b1, 3px 3px 15px #00000070;
+  background-image: url(./img/hotFull.jpg);
+  background-size: 450px 450px;
+}
+.showR {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
   width: 100%;
-  }
-  
-
-
-  .knockout {
-    background: url(http://apod.nasa.gov/apod/image/0603/coma_misti.jpg) -80px -80px;
-    color: red;
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
-    font-weight: bold;
-    font-size: 50px;
-    font-family: arial, helvetica;
-    width: 600px;
-    margin: 50px auto;
-    text-align: center;
-  }
-  
-  
+  background-image: url(./img/hotCover.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cl1SRCO {
+  margin: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cl2SRCO {
+  height: 450px;
+  width: 450px;
+  background: #0449b1;
+  border-radius: 25px;
+  box-shadow: inset -3px -3px 5px #0449b1, 3px 3px 15px #00000070;
+  background-image: url(./img/clodFull.jpg);
+  background-size: 450px 450px;
+}
+.showRCO {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(./img/coldCover2.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.cl1SRC {
+  margin: 8%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.cl2SRC {
+  height: 450px;
+  width: 450px;
+  background: #0449b1;
+  border-radius: 25px;
+  box-shadow: inset -3px -3px 5px #0449b1, 3px 3px 15px #00000070;
+  background-image: url(./img/clearFull.jpg);
+  background-size: 450px 450px;
+}
+.showRC {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background-image: url(./img/clearCover5.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
