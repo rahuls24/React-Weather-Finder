@@ -3,6 +3,7 @@ import React, { Component } from 'react';
 import './App.css';
 import ShowReport from './ShowReport';
 var defaulturl1 = 'http://api.openweathermap.org/data/2.5/weather?q=';
+var defaulturl2 = '&appid=668a25705c2cd2e1f0cdde5cf2184cc1';
 export default class App extends Component {
   constructor(props) {
     super(props);
@@ -27,7 +28,7 @@ export default class App extends Component {
 
   //for search via city name
   getTemp() {
-    fetch(defaulturl1 + this.state.city + process.env.REACT_APP_KEY)
+    fetch(defaulturl1 + this.state.city + defaulturl2)
       .then(res => res.json())
       .then(data => {
         // console.log(data);
