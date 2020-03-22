@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/React-Weather-Finder/static/css/main.78a482d5.chunk.css",
+    "main.js": "/React-Weather-Finder/static/js/main.b59af698.chunk.js",
+    "main.js.map": "/React-Weather-Finder/static/js/main.b59af698.chunk.js.map",
+    "runtime~main.js": "/React-Weather-Finder/static/js/runtime~main.423aa529.js",
+    "runtime~main.js.map": "/React-Weather-Finder/static/js/runtime~main.423aa529.js.map",
+    "static/js/2.f9cd1f14.chunk.js": "/React-Weather-Finder/static/js/2.f9cd1f14.chunk.js",
+    "static/js/2.f9cd1f14.chunk.js.map": "/React-Weather-Finder/static/js/2.f9cd1f14.chunk.js.map",
+    "index.html": "/React-Weather-Finder/index.html",
+    "precache-manifest.04bb630f226f245e53fb55c09c909e36.js": "/React-Weather-Finder/precache-manifest.04bb630f226f245e53fb55c09c909e36.js",
+    "service-worker.js": "/React-Weather-Finder/service-worker.js",
+    "static/css/main.78a482d5.chunk.css.map": "/React-Weather-Finder/static/css/main.78a482d5.chunk.css.map",
+    "static/media/App.css": "/React-Weather-Finder/static/media/hotFull.c06d6a40.jpg"
+  }
+}
